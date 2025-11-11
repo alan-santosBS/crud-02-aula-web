@@ -1,0 +1,10 @@
+CREATE DATABASE filmes;
+USE filmes;
+
+CREATE TABLE filmes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    genero VARCHAR(50) NOT NULL,
+    ano INT NOT NULL,
+    diretor VARCHAR(100) NOT NULL
+);
